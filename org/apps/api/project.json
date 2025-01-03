@@ -19,6 +19,12 @@
         "outputPath": "{workspaceRoot}/dist/apps/api",
         "tsConfig": "{projectRoot}/tsconfig.app.json"
       }
+    },
+    "serve": {
+      "executor": "@nx/js:node",
+      "options": {
+        "buildTarget": "api:build"
+      }
     }
   }
 }
