@@ -3,7 +3,6 @@
     "allowJs": false,
     "allowSyntheticDefaultImports": true,
     "baseUrl": ".",
-    "composite": true,
     "declaration": true,
     "declarationMap": false,
     "emitDeclarationOnly": false,
@@ -34,13 +33,5 @@
     "paths": {
       "@org/tools": ["libs/tools/src/index.ts"]
     }
-  },
-  "references": [
-    {
-      "path": "./apps/api/tsconfig.app.json"
-    },
-    {
-      "path": "./libs/tools/tsconfig.lib.json"
-    }
-  ]
+  }
 }

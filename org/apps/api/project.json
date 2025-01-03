@@ -10,8 +10,6 @@
   },
   "targets": {
     "build": {
-      "inputs": ["production", "^production"],
-      "outputs": ["{workspaceRoot}/dist/apps/api"],
       "executor": "@nx/js:tsc",
       "options": {
         "main": "{projectRoot}/src/index.ts",
