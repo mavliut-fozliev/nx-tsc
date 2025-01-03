@@ -1,5 +1,8 @@
+import { getMessage } from "@org/tools";
+
 function init() {
-  console.log("init");
+  const message = getMessage();
+  console.log(message);
 }
 
 init();
