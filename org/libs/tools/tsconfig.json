@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "../../build/tools",
+    "resolveJsonModule": true,
+    "composite": true
+  },
+  "include": ["src/**/*.ts"]
+}

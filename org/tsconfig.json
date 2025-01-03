@@ -33,5 +33,6 @@
     "paths": {
       "@org/tools": ["libs/tools/src/index.ts"]
     }
-  }
+  },
+  "references": [{ "path": "./apps/api" }, { "path": "./libs/tools" }]
 }

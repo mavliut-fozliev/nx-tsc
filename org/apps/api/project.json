@@ -14,7 +14,7 @@
       "options": {
         "main": "{projectRoot}/src/index.ts",
         "outputPath": "{workspaceRoot}/dist/apps/api",
-        "tsConfig": "{projectRoot}/tsconfig.app.json"
+        "tsConfig": "{projectRoot}/tsconfig.json"
       }
     },
     "serve": {
