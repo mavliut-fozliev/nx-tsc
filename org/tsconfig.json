@@ -13,7 +13,9 @@
     "importHelpers": true,
     "incremental": true,
     "isolatedModules": true,
-    "lib": ["es2022"],
+    "lib": [
+      "es2022"
+    ],
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
     "noEmitOnError": true,
@@ -32,7 +34,9 @@
     "verbatimModuleSyntax": false,
     "rootDir": ".",
     "paths": {
-      "@org/tools": ["libs/tools/src/index.ts"]
+      "@org/tools": [
+        "libs/tools/src/index.ts"
+      ]
     },
     "outDir": "dist"
   },

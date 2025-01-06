@@ -7,17 +7,5 @@
   "namedInputs": {
     "default": ["{projectRoot}/**/*"],
     "production": ["!{projectRoot}/**/*.spec.tsx"]
-  },
-  "targets": {
-    "build": {
-      "inputs": ["production", "^production"],
-      "outputs": ["{workspaceRoot}/dist/libs/second"],
-      "executor": "@nx/js:tsc",
-      "options": {
-        "main": "{projectRoot}/src/index.ts",
-        "outputPath": "{workspaceRoot}/dist/libs/second",
-        "tsConfig": "{projectRoot}/tsconfig.json"
-      }
-    }
   }
 }
