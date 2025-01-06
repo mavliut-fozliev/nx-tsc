@@ -3,8 +3,8 @@
   "compilerOptions": {
     "types": ["node"],
     "resolveJsonModule": true,
-    "composite": true
+    "composite": true,
   },
-  "include": ["src/**/*.ts"],
+  "include": ["**/*.ts", "../../libs/tools/**/*.ts"],
   "references": [{ "path": "../../libs/tools" }]
 }
