@@ -14,9 +14,19 @@
         },
         "build": {
           "targetName": "build",
-          "configName": "tsconfig.json"
+          "configName": "tsconfig.json",
+          "rootDir": "."
         }
       }
     }
-  ]
+  ],
+  "targetDefaults": {
+    "@nx/js:tsc": {
+      "inputs": ["production", "^production"],
+      "dependsOn": ["^build"],
+      "options": {
+        "rootDir": "."
+      }
+    }
+  }
 }
